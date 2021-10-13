@@ -45,6 +45,51 @@ h1 {
   color: var(--grey);
 }
 
+.leftSection #persInfo:before {
+  background-image: url('/img/icons8-persona-de-sexo-masculino-64.png');
+  background-size: 30px 30px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  content: "";
+}
+
+.leftSection #skilsInfo:before {
+  background-image: url('/img/icons8-flash-64.png');
+  background-size: 30px 30px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  content: "";
+}
+
+#rightContainer #EduInfo:before {
+  background-image: url('/img/icons8-educación-30.png');
+  background-size: 30px 30px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  content: "";
+}
+
+#rightContainer #workInfo:before {
+  background-image: url('/img/icons8-maletín-64.png');
+  background-size: 30px 30px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  content: "";
+}
+
+#rightContainer #certInfo:before {
+  background-image: url('/img/icons8-medalla-64.png');
+  background-size: 30px 30px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  content: "";
+}
+
 #rightContainer {
   display: flex;
   flex-direction: column;
