@@ -1,0 +1,91 @@
+:root {
+  --grey: rgba(80, 80, 80, 255);
+  --titleGreen: rgb(74, 116,124);
+  --subtitleGreen: rgb(80,126,112);
+  --lineColor: rgba(210, 210, 210, 255);
+}
+
+#body {
+  font-family: 'Times New Roman', Times, serif;
+}
+#flexHeader {
+  display: flex;
+  justify-content: center;
+}
+
+#flexHeader h2 {
+  color: var(--subtitleGreen)
+}
+
+h1 {
+  color: var(--titleGreen);
+}
+
+#mainContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#mainContainer h1 {
+  border-bottom: 2px solid var(--lineColor);
+}
+
+#leftContainer {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5%;
+}
+
+#leftContainer .subtitle {
+  margin-bottom: 20px;
+}
+
+#leftContainer .title {
+  color: var(--grey);
+}
+
+#rightContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.rightSection {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.rightSection h2 {
+  margin-bottom: 10px;
+  padding: 4px;
+  color: var(--grey);
+}
+
+
+.rightSection h3, h4 {
+  margin: 4px;
+  padding: 0;
+  font-weight: normal;
+}
+
+.leftRightSection {
+  display: flex;
+  width: 150px;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftRightSection .dateSpan {
+  margin: auto;
+}
+
+.rightRightSection {
+  margin-left: 1%;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  gap: 1px;
+}
