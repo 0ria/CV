@@ -1,1 +1,1 @@
-WebPage fpr CV in Github Pages
+CV in Github Pages
