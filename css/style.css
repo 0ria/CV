@@ -46,7 +46,7 @@ h1 {
 }
 
 .leftSection #persInfo:before {
-  background-image: url('/img/icons8-persona-de-sexo-masculino-64.png');
+  background-image: url('../img/icons8-persona-de-sexo-masculino-64.png');
   background-size: 30px 30px;
   display: inline-block;
   width: 30px;
@@ -73,7 +73,7 @@ h1 {
 }
 
 #rightContainer #workInfo:before {
-  background-image: url('/img/icons8-maletín-64.png');
+  background-image: url('../img/icons8-maletín-64.png');
   background-size: 30px 30px;
   display: inline-block;
   width: 30px;
@@ -82,7 +82,7 @@ h1 {
 }
 
 #rightContainer #certInfo:before {
-  background-image: url('/img/icons8-medalla-64.png');
+  background-image: url('../img/icons8-medalla-64.png');
   background-size: 30px 30px;
   display: inline-block;
   width: 30px;
