@@ -114,6 +114,10 @@ h1 {
   font-weight: normal;
 }
 
+.leftSection h4 a {
+  color: var(--grey);
+}
+
 .leftRightSection {
   display: flex;
   width: 150px;
