@@ -64,7 +64,7 @@ h1 {
 }
 
 #rightContainer #EduInfo:before {
-  background-image: url('/img/icons8-educación-30.png');
+  background-image: url('./img/icons8-educación-30.png');
   background-size: 30px 30px;
   display: inline-block;
   width: 30px;
