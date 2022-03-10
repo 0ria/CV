@@ -5,6 +5,14 @@
   --lineColor: rgba(210, 210, 210, 255);
 }
 
+@media print {
+  body{
+      width: 21cm;
+      height: 29.7cm;
+      margin: 30mm 45mm 30mm 45mm; 
+ } 
+}
+
 #body {
   font-family: 'Times New Roman', Times, serif;
 }
@@ -15,6 +23,15 @@
 
 #flexHeader h2 {
   color: var(--subtitleGreen)
+}
+
+a:link, a:hover {
+  text-decoration: none;
+  color: var(--titleGreen)
+}
+
+a:active, a :visited {
+  text-decoration: underline;
 }
 
 h1 {
